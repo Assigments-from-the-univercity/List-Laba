@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/List_Laba.dir/main.cpp.o  -o List_Laba 
