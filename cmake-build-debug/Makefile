@@ -143,6 +143,33 @@ List_Laba/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/build
 .PHONY : List_Laba/fast
 
+List.o: List.cpp.o
+
+.PHONY : List.o
+
+# target to build an object file
+List.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/List.cpp.o
+.PHONY : List.cpp.o
+
+List.i: List.cpp.i
+
+.PHONY : List.i
+
+# target to preprocess a source file
+List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/List.cpp.i
+.PHONY : List.cpp.i
+
+List.s: List.cpp.s
+
+.PHONY : List.s
+
+# target to generate assembly for a file
+List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/List.cpp.s
+.PHONY : List.cpp.s
+
 Node.o: Node.cpp.o
 
 .PHONY : Node.o
@@ -169,33 +196,6 @@ Node.s: Node.cpp.s
 Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Node.cpp.s
 .PHONY : Node.cpp.s
-
-Testing/List.o: Testing/List.cpp.o
-
-.PHONY : Testing/List.o
-
-# target to build an object file
-Testing/List.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.o
-.PHONY : Testing/List.cpp.o
-
-Testing/List.i: Testing/List.cpp.i
-
-.PHONY : Testing/List.i
-
-# target to preprocess a source file
-Testing/List.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.i
-.PHONY : Testing/List.cpp.i
-
-Testing/List.s: Testing/List.cpp.s
-
-.PHONY : Testing/List.s
-
-# target to generate assembly for a file
-Testing/List.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.s
-.PHONY : Testing/List.cpp.s
 
 main.o: main.cpp.o
 
@@ -233,12 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... List_Laba"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
-	@echo "... Testing/List.o"
-	@echo "... Testing/List.i"
-	@echo "... Testing/List.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

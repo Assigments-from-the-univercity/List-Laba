@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.cpp">
+			<Option target="List_Laba"/>
+		</Unit>
+		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.h">
+			<Option target="List_Laba"/>
+		</Unit>
 		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.cpp">
 			<Option target="List_Laba"/>
 		</Unit>
 		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.h">
-			<Option target="List_Laba"/>
-		</Unit>
-		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Testing/List.cpp">
-			<Option target="List_Laba"/>
-		</Unit>
-		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Testing/List.h">
 			<Option target="List_Laba"/>
 		</Unit>
 		<Unit filename="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/main.cpp">
