@@ -10,14 +10,18 @@
 
 using namespace std;
 
-template<class T>
 class List {
     int size;
-
-    Node<int> begin();
+    Node begin;
 
 public:
-    List(string type);
+    List();
+
+    List(int value);
+
+    void insert(int value);
+
+    void print();
 };
 
 

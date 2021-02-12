@@ -6,21 +6,33 @@
 
 using namespace std;
 
-template<class T>
-Node<T>::Node() {}
+Node::Node() {
+    this->value = 0;
+    next = nullptr;
+}
 
-template<class T>
-Node<T>::Node(T value) {
+Node::Node(int value) {
     this->value = value;
     next = nullptr;
 }
 
-template<class T>
-T Node<T>::getValue() {
+int Node::getValue() {
     return value;
 }
 
-template<class T>
-Node<T> *Node<T>::getNext() {
+void Node::setValue(int value) {
+    this->value = value;
+}
+
+void Node::setNext(Node *next) {
+    this->next = next;
+}
+
+void Node::set(int value, Node *next) {
+    this->value = value;
+    this->next = next;
+}
+
+Node *Node::getNext() {
     return next;
 }

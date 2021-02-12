@@ -7,16 +7,21 @@
 
 using namespace std;
 
-template<class T>
 class Node {
-    T value;
+    int value;
     Node *next;
 public:
     Node();
 
-    Node(T value);
+    Node(int value);
 
-    T getValue();
+    int getValue();
+
+    void setValue(int value);
+
+    void setNext(Node *next));
+
+    void set(int value, Node *next);
 
     Node * getNext();
 };
