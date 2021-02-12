@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/List_Laba.dir/main.cpp.o  -o List_Laba 
+/usr/bin/c++  -g   CMakeFiles/List_Laba.dir/main.cpp.o CMakeFiles/List_Laba.dir/Node.cpp.o CMakeFiles/List_Laba.dir/Testing/List.cpp.o  -o List_Laba 

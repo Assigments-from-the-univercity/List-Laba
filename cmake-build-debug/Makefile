@@ -143,6 +143,60 @@ List_Laba/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/build
 .PHONY : List_Laba/fast
 
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
+Testing/List.o: Testing/List.cpp.o
+
+.PHONY : Testing/List.o
+
+# target to build an object file
+Testing/List.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.o
+.PHONY : Testing/List.cpp.o
+
+Testing/List.i: Testing/List.cpp.i
+
+.PHONY : Testing/List.i
+
+# target to preprocess a source file
+Testing/List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.i
+.PHONY : Testing/List.cpp.i
+
+Testing/List.s: Testing/List.cpp.s
+
+.PHONY : Testing/List.s
+
+# target to generate assembly for a file
+Testing/List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List_Laba.dir/build.make CMakeFiles/List_Laba.dir/Testing/List.cpp.s
+.PHONY : Testing/List.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... List_Laba"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
+	@echo "... Testing/List.o"
+	@echo "... Testing/List.i"
+	@echo "... Testing/List.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
