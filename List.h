@@ -11,7 +11,6 @@
 using namespace std;
 
 class List {
-    int size;
     Node begin;
 
 public:
@@ -19,9 +18,11 @@ public:
 
     List(int value);
 
-    void insert(int value);
+    void add(int value);
 
     void print();
+
+    void copy(List list);
 };
 
 

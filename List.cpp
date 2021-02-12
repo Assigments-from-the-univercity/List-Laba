@@ -13,7 +13,7 @@ List::List(int value) {
     begin.setValue(value);
 }
 
-void List::insert(int value) {
+void List::add(int value) {
     Node *current = &begin;
     while ((*current).getNext() != nullptr) {
         current = (*current).getNext(); //доходим до конца списка
@@ -27,5 +27,23 @@ void List::print() {
     while (current) {
         cout << current->getValue() << " ";
         current = current->getNext();
+    }
+    cout << endl;
+}
+
+void List::copy(List list) {
+    Node *currentTo = &begin;
+    Node *currentFrom = &(list.begin);
+
+    currentTo->setValue(currentFrom->getValue());
+
+    while (currentFrom->getNext()) {
+        Node *last = new Node();
+        (*currentTo).setNext(last);
+
+        currentTo = currentTo->getNext();
+        currentFrom = currentFrom->getNext();
+
+        currentTo->setValue(currentFrom->getValue());
     }
 }

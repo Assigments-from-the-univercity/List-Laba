@@ -7,7 +7,6 @@
 using namespace std;
 
 Node::Node() {
-    this->value = 0;
     next = nullptr;
 }
 
