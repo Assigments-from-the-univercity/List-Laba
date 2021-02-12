@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.cpp" "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles/List_Laba.dir/List.cpp.o"
-  "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.cpp" "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles/List_Laba.dir/Node.cpp.o"
+  "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/List.cpp" "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles/List_Laba.dir/List.cpp.o"
+  "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/Node.cpp" "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles/List_Laba.dir/Node.cpp.o"
   "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/main.cpp" "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles/List_Laba.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

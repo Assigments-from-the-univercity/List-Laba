@@ -90,44 +90,44 @@ CMakeFiles/List_Laba.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List_Laba.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/main.cpp" -o CMakeFiles/List_Laba.dir/main.cpp.s
 
-CMakeFiles/List_Laba.dir/Node.cpp.o: CMakeFiles/List_Laba.dir/flags.make
-CMakeFiles/List_Laba.dir/Node.cpp.o: Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List_Laba.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List_Laba.dir/Node.cpp.o -c "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.cpp"
-
-CMakeFiles/List_Laba.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List_Laba.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.cpp" > CMakeFiles/List_Laba.dir/Node.cpp.i
-
-CMakeFiles/List_Laba.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List_Laba.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/Node.cpp" -o CMakeFiles/List_Laba.dir/Node.cpp.s
-
 CMakeFiles/List_Laba.dir/List.cpp.o: CMakeFiles/List_Laba.dir/flags.make
-CMakeFiles/List_Laba.dir/List.cpp.o: List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List_Laba.dir/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List_Laba.dir/List.cpp.o -c "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.cpp"
+CMakeFiles/List_Laba.dir/List.cpp.o: ../List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List_Laba.dir/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List_Laba.dir/List.cpp.o -c "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/List.cpp"
 
 CMakeFiles/List_Laba.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List_Laba.dir/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.cpp" > CMakeFiles/List_Laba.dir/List.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/List.cpp" > CMakeFiles/List_Laba.dir/List.cpp.i
 
 CMakeFiles/List_Laba.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List_Laba.dir/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/List.cpp" -o CMakeFiles/List_Laba.dir/List.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/List.cpp" -o CMakeFiles/List_Laba.dir/List.cpp.s
+
+CMakeFiles/List_Laba.dir/Node.cpp.o: CMakeFiles/List_Laba.dir/flags.make
+CMakeFiles/List_Laba.dir/Node.cpp.o: ../Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List_Laba.dir/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List_Laba.dir/Node.cpp.o -c "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/Node.cpp"
+
+CMakeFiles/List_Laba.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List_Laba.dir/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/Node.cpp" > CMakeFiles/List_Laba.dir/Node.cpp.i
+
+CMakeFiles/List_Laba.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List_Laba.dir/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/Node.cpp" -o CMakeFiles/List_Laba.dir/Node.cpp.s
 
 # Object files for target List_Laba
 List_Laba_OBJECTS = \
 "CMakeFiles/List_Laba.dir/main.cpp.o" \
-"CMakeFiles/List_Laba.dir/Node.cpp.o" \
-"CMakeFiles/List_Laba.dir/List.cpp.o"
+"CMakeFiles/List_Laba.dir/List.cpp.o" \
+"CMakeFiles/List_Laba.dir/Node.cpp.o"
 
 # External object files for target List_Laba
 List_Laba_EXTERNAL_OBJECTS =
 
 List_Laba: CMakeFiles/List_Laba.dir/main.cpp.o
-List_Laba: CMakeFiles/List_Laba.dir/Node.cpp.o
 List_Laba: CMakeFiles/List_Laba.dir/List.cpp.o
+List_Laba: CMakeFiles/List_Laba.dir/Node.cpp.o
 List_Laba: CMakeFiles/List_Laba.dir/build.make
 List_Laba: CMakeFiles/List_Laba.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/mark/CLionProjects/University/First Course/Second Semester/Module 1/List-Laba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable List_Laba"

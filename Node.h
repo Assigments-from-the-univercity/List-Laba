@@ -19,7 +19,7 @@ public:
 
     void setValue(int value);
 
-    void setNext(Node *next));
+    void setNext(Node *next);
 
     void set(int value, Node *next);
 
