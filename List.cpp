@@ -18,14 +18,14 @@ void List::insert(int value) {
     while ((*current).getNext() != nullptr) {
         current = (*current).getNext(); //доходим до конца списка
     }
-    Node last(value);
-    (*current).setNext(&last);
+    Node *last = new Node(value);
+    (*current).setNext(last);
 }
 
 void List::print() {
     Node *current = &begin;
-    while (current.getNext() != nullptr) {
-        cout << current.getValue() << " ";
-        current = *current.getNext();
+    while (current) {
+        cout << current->getValue() << " ";
+        current = current->getNext();
     }
 }
