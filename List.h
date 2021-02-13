@@ -23,6 +23,18 @@ public:
     void print();
 
     void copy(List list);
+
+    bool isInList(int number);
+
+    int size();
+
+    List unity(List list);
+
+    List intersection(List list);
+
+    bool isEqual(List list);
+
+    bool isIn(List list);
 };
 
 

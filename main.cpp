@@ -15,4 +15,23 @@ int main() {
     list2.copy(list);
 
     list2.print();
+
+    cout << list2.isInList(25) << " " << list2.isInList(13) << endl;
+
+    cout << list2.size() << " " << list.size() << endl;
+
+    List list3(14);
+    list3.add(15);
+    list3.add(16);
+    list3.unity(list);
+    list3.print();
+
+    List list4(10);
+    list4.add(16);
+    list4.intersection(list3);
+    list4.print();
+
+    cout << list3.isEqual(list2) << " " << list2.isEqual(list) << endl;
+
+    cout << list3.isIn(list2) << " " << list4.isIn(list3) << endl;
 }
