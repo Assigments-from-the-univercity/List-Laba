@@ -34,4 +34,16 @@ int main() {
     cout << list3.isEqual(list2) << " " << list2.isEqual(list) << endl;
 
     cout << list3.isIn(list2) << " " << list4.isIn(list3) << endl;
+
+    list4.change(1, 55);
+    list4.print();
+
+    list4.del(1);
+    list4.print();
+
+    list3.print();
+    list3.del(2);
+    list3.print();
+    list3.del(4);
+    list3.print();
 }

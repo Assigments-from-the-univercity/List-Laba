@@ -51,10 +51,10 @@ void List::copy(List list) {
     }
 }
 
-bool List::isInList(int number) {
+bool List::isInList(int value) {
     Node *current = &begin;
     while (current) {
-        if (current->getValue() == number){
+        if (current->getValue() == value) {
             return true;
         }
         current = current->getNext();
@@ -62,7 +62,7 @@ bool List::isInList(int number) {
     return false;
 }
 
-int List::size(){
+int List::size() {
     Node *current = &begin;
     int size = 0;
     while (current) {
@@ -72,7 +72,7 @@ int List::size(){
     return size;
 }
 
-List List::unity(List list) {
+void List::unity(List list) {
     Node *pr = &(list.begin);
     while (pr) {
         this->add(pr->getValue());
@@ -80,7 +80,7 @@ List List::unity(List list) {
     }
 }
 
-List List::intersection(List list) {
+void List::intersection(List list) {
     Node *pr = &(list.begin);
     List newList;
     Node *newCurrent = &(newList.begin);
@@ -128,4 +128,45 @@ bool List::isIn(List list) {
     }
 
     return true;
+}
+
+void List::change(int order, int newValue) {
+    Node *current = &begin;
+    while (current && order > 0) {
+        current = current->getNext();
+        order--;
+    }
+    if (current) {
+        current->setValue(newValue);
+    }
+}
+
+void List::del(int order) {
+    if (order == 0) {
+        begin = *begin.getNext();
+        return;
+    }
+
+    Node *current = &begin;
+    Node *prev;
+
+    while (current && order > 1) {
+        current = current->getNext();
+        order--;
+    }
+    if (!current) {
+        return;
+    }
+
+    prev = current;
+    current = current->getNext();
+    if (current->getNext() == nullptr) {
+        delete current;
+        prev->setNext(nullptr);
+        return;
+    }
+
+    prev->setNext(current->getNext());
+
+    delete current;
 }

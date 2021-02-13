@@ -24,17 +24,21 @@ public:
 
     void copy(List list);
 
-    bool isInList(int number);
+    bool isInList(int value);
 
     int size();
 
-    List unity(List list);
+    void unity(List list);
 
-    List intersection(List list);
+    void intersection(List list);
 
     bool isEqual(List list);
 
     bool isIn(List list);
+
+    void change(int order, int newValue);
+
+    void del(int order);
 };
 
 
