@@ -32,6 +32,8 @@ public:
 
     void intersection(List list);
 
+    void difference(List list);
+
     bool isEqual(List list);
 
     bool isIn(List list);

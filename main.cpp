@@ -46,4 +46,7 @@ int main() {
     list3.print();
     list3.del(4);
     list3.print();
+
+    list3.difference(list);
+    list3.print();
 }

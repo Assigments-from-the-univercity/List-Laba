@@ -39,6 +39,7 @@ void List::copy(List list) {
     Node *currentFrom = &(list.begin);
 
     currentTo->setValue(currentFrom->getValue());
+    currentTo->setNext(nullptr);
 
     while (currentFrom->getNext()) {
         Node *last = new Node();
@@ -87,6 +88,22 @@ void List::intersection(List list) {
 
     while (pr) {
         if (this->isInList(pr->getValue())) {
+            newList.add(pr->getValue());
+        }
+        pr = pr->getNext();
+    }
+
+    newList.begin = *(newList.begin.getNext());
+    this->copy(newList);
+}
+
+void List::difference(List list) {
+    Node *pr = &(this->begin);
+    List newList;
+    Node *newCurrent = &(newList.begin);
+
+    while (pr) {
+        if (!(list.isInList(pr->getValue()))) {
             newList.add(pr->getValue());
         }
         pr = pr->getNext();
